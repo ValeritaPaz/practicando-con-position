@@ -2,23 +2,29 @@
 	background-color: purple;
 	padding: 2em;
 	display: inline-block;
-	position: relative; top: 7em;
+	float: left;
 	color: silver;
+	margin: 1em;
+	border: .5em dashed black;
 }
 
 .caja2 {
 	background-color: green;
 	padding: 2em;
 	display: inline-block;
+	float: right;
 	color: silver;
+	border: .5em dashed black;
 }
 
 .caja3 {
 	background-color: teal; 
 	padding: 2em;
 	display: inline-block;
-	position: relative; top: 7em;
 	color: silver;
+	float: left;
+	margin: 1em;
+	border: .5em dashed black;
 }
 
 .caja4 {
@@ -26,4 +32,6 @@
 	padding: 2em;
 	display: inline-block;
 	color: silver;
+	float: right;
+	border: .5em dashed black;
 }
